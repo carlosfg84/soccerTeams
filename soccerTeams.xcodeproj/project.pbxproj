@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0768FBB31DD176C800AEFEDE /* websiteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0768FBB21DD176C800AEFEDE /* websiteVC.swift */; };
+		0768FBB61DD1802E00AEFEDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0768FBB41DD1802E00AEFEDE /* Main.storyboard */; };
 		07835E7F1DCFC2080066D312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07835E7E1DCFC2080066D312 /* AppDelegate.swift */; };
 		07835E811DCFC2080066D312 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07835E801DCFC2080066D312 /* ViewController.swift */; };
-		07835E841DCFC2080066D312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07835E821DCFC2080066D312 /* Main.storyboard */; };
 		07835E871DCFC2080066D312 /* soccerTeams.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07835E851DCFC2080066D312 /* soccerTeams.xcdatamodeld */; };
 		07835E891DCFC2080066D312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07835E881DCFC2080066D312 /* Assets.xcassets */; };
 		07835E8C1DCFC2080066D312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07835E8A1DCFC2080066D312 /* LaunchScreen.storyboard */; };
 		07835E971DCFC2080066D312 /* soccerTeamsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07835E961DCFC2080066D312 /* soccerTeamsTests.swift */; };
 		07835EA21DCFC2080066D312 /* soccerTeamsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07835EA11DCFC2080066D312 /* soccerTeamsUITests.swift */; };
+		07835EB41DCFE54A0066D312 /* Team+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07835EB21DCFE54A0066D312 /* Team+CoreDataClass.swift */; };
+		07835EB51DCFE54A0066D312 /* Team+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07835EB31DCFE54A0066D312 /* Team+CoreDataProperties.swift */; };
+		07835EB71DCFE7210066D312 /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07835EB61DCFE7210066D312 /* TeamCell.swift */; };
+		07835EB91DCFEBF90066D312 /* AddTeamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07835EB81DCFEBF90066D312 /* AddTeamVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0768FBB21DD176C800AEFEDE /* websiteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = websiteVC.swift; sourceTree = "<group>"; };
+		0768FBB51DD1802E00AEFEDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07835E7B1DCFC2080066D312 /* soccerTeams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soccerTeams.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07835E7E1DCFC2080066D312 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07835E801DCFC2080066D312 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		07835E831DCFC2080066D312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07835E861DCFC2080066D312 /* soccerTeams.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = soccerTeams.xcdatamodel; sourceTree = "<group>"; };
 		07835E881DCFC2080066D312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07835E8B1DCFC2080066D312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,10 @@
 		07835E9D1DCFC2080066D312 /* soccerTeamsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soccerTeamsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07835EA11DCFC2080066D312 /* soccerTeamsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soccerTeamsUITests.swift; sourceTree = "<group>"; };
 		07835EA31DCFC2080066D312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07835EB21DCFE54A0066D312 /* Team+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Team+CoreDataClass.swift"; path = "../Team+CoreDataClass.swift"; sourceTree = "<group>"; };
+		07835EB31DCFE54A0066D312 /* Team+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Team+CoreDataProperties.swift"; path = "../Team+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		07835EB61DCFE7210066D312 /* TeamCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
+		07835EB81DCFEBF90066D312 /* AddTeamVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTeamVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +109,11 @@
 		07835E7D1DCFC2080066D312 /* soccerTeams */ = {
 			isa = PBXGroup;
 			children = (
+				07835EB11DCFE1730066D312 /* Controller */,
+				07835EB01DCFE16E0066D312 /* View */,
+				07835EAF1DCFE1640066D312 /* Model */,
 				07835E7E1DCFC2080066D312 /* AppDelegate.swift */,
-				07835E801DCFC2080066D312 /* ViewController.swift */,
-				07835E821DCFC2080066D312 /* Main.storyboard */,
 				07835E881DCFC2080066D312 /* Assets.xcassets */,
-				07835E8A1DCFC2080066D312 /* LaunchScreen.storyboard */,
 				07835E8D1DCFC2080066D312 /* Info.plist */,
 				07835E851DCFC2080066D312 /* soccerTeams.xcdatamodeld */,
 			);
@@ -126,6 +136,35 @@
 				07835EA31DCFC2080066D312 /* Info.plist */,
 			);
 			path = soccerTeamsUITests;
+			sourceTree = "<group>";
+		};
+		07835EAF1DCFE1640066D312 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07835EB21DCFE54A0066D312 /* Team+CoreDataClass.swift */,
+				07835EB31DCFE54A0066D312 /* Team+CoreDataProperties.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		07835EB01DCFE16E0066D312 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				07835EB61DCFE7210066D312 /* TeamCell.swift */,
+				0768FBB41DD1802E00AEFEDE /* Main.storyboard */,
+				07835E8A1DCFC2080066D312 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		07835EB11DCFE1730066D312 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				07835E801DCFC2080066D312 /* ViewController.swift */,
+				07835EB81DCFEBF90066D312 /* AddTeamVC.swift */,
+				0768FBB21DD176C800AEFEDE /* websiteVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +235,7 @@
 				TargetAttributes = {
 					07835E7A1DCFC2070066D312 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6FJN2SGEK5;
 						ProvisioningStyle = Automatic;
 					};
 					07835E911DCFC2080066D312 = {
@@ -235,9 +275,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0768FBB61DD1802E00AEFEDE /* Main.storyboard in Resources */,
 				07835E8C1DCFC2080066D312 /* LaunchScreen.storyboard in Resources */,
 				07835E891DCFC2080066D312 /* Assets.xcassets in Resources */,
-				07835E841DCFC2080066D312 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +302,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07835EB91DCFEBF90066D312 /* AddTeamVC.swift in Sources */,
 				07835E871DCFC2080066D312 /* soccerTeams.xcdatamodeld in Sources */,
 				07835E811DCFC2080066D312 /* ViewController.swift in Sources */,
+				07835EB71DCFE7210066D312 /* TeamCell.swift in Sources */,
+				07835EB41DCFE54A0066D312 /* Team+CoreDataClass.swift in Sources */,
 				07835E7F1DCFC2080066D312 /* AppDelegate.swift in Sources */,
+				0768FBB31DD176C800AEFEDE /* websiteVC.swift in Sources */,
+				07835EB51DCFE54A0066D312 /* Team+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,10 +345,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		07835E821DCFC2080066D312 /* Main.storyboard */ = {
+		0768FBB41DD1802E00AEFEDE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				07835E831DCFC2080066D312 /* Base */,
+				0768FBB51DD1802E00AEFEDE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -414,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6FJN2SGEK5;
 				INFOPLIST_FILE = soccerTeams/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cfg.soccerTeams;
@@ -426,6 +472,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6FJN2SGEK5;
 				INFOPLIST_FILE = soccerTeams/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cfg.soccerTeams;
@@ -507,6 +554,7 @@
 				07835EA81DCFC2080066D312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07835EA91DCFC2080066D312 /* Build configuration list for PBXNativeTarget "soccerTeamsTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +563,7 @@
 				07835EAB1DCFC2080066D312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07835EAC1DCFC2080066D312 /* Build configuration list for PBXNativeTarget "soccerTeamsUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +572,7 @@
 				07835EAE1DCFC2080066D312 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
